@@ -1,0 +1,688 @@
+html{
+	scroll-behavior: smooth;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: sans-serif;
+	background-color: #000;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: cursive;
+}
+a, a:hover{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+.mar{
+	margin-top: 30px;
+}
+.fa-arrow-circle-up{
+	position: fixed !important;
+    right: 30px !important;
+    bottom: 50px !important;
+    z-index: 10000000 !important;
+    width: 50px !important;
+    font-size: 50px !important;
+    border-radius: 50% !important;
+    line-height: 60px;
+    text-align: center;
+    color: #fbbe3f;
+    transition: 1s;
+}
+.fa-arrow-circle-up:hover{
+	color: #fff;
+}
+/*************Global css ENd Here*****************/
+
+
+/*******************************
+**********header section *******
+*******************************/
+.header-section{
+	width: 100%;
+	background-color: #333!important;
+}
+.header-section .navbar-brand img{
+	width: 150px;
+}
+.header-section .bg-light{
+	background-color: #333 !important;
+}
+.header-section .navbar-nav .dropdown:hover .dropdown-menu{
+	display: block;
+}
+.header-section .navbar-nav .dropdown .dropdown-item:hover{
+    background-color:  #FBBE3F!important;
+}
+.header-section .navbar-nav .dropdown .dropdown-menu{
+	background-color: #333;
+	opacity: .8 !important;
+}
+.header-section .navbar-nav .dropdown .dropdown-menu li a{
+	color: #fff;
+	font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.header-section .navbar-nav .dropdown .dropdown-menu li a:hover,
+.header-section .navbar-nav .dropdown .dropdown-menu li a:active,
+.header-section .navbar-nav .dropdown .dropdown-menu li a:focus{
+	color: #000;
+	font-weight: 600;
+}
+.header-section .navbar-nav .nav-item{
+	margin-left: 50px;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link.active{
+	color: #FBBE3F!important;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+}
+.header-section .navbar-light .navbar-nav .nav-link{
+	color: #fff !important;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+}
+.header-section .navbar-light .navbar-nav .show{
+	color: #FBBE3F!important;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover{
+	color: #FBBE3F!important;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+}
+/*******************************
+******header section end *******
+*******************************/
+
+/*******************************
+******Banner section start *******
+*******************************/
+.banner-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/bg.jpg") center top no-repeat;
+	background-size: cover;
+}
+.banner-section .inner-banner{
+	padding: 120px 0px;
+}
+.banner-section .inner-banner h1{
+	text-align: center;
+	font-weight: 700;
+	width: 80%;
+	color: #fff;
+	margin: 80px auto 40px;
+	font-size: 52px;
+	line-height: 72px;
+	letter-spacing: 3px;
+}
+.banner-section .inner-banner .fist{
+	text-align: center;
+	padding: 40px 0px;
+	color: #b8b8b8;
+	width: 62%;
+	font-weight: 700;
+	font-size: 22px;
+	margin: 40px auto;
+	line-height: 36px;
+	letter-spacing: 2px;
+}
+.banner-section .inner-banner .secend{
+	width: 45%;
+	text-align: center;
+	padding: 35px;
+	margin: 40px auto;
+}
+.banner-section .inner-banner .secend .one{
+	margin-right: 20px;
+	text-decoration: none;
+	color: white;
+	padding: 25px 35px;
+	background-color: #FBBE3F;
+	font-size: 18px;
+	font-weight: 700;
+}
+.banner-section .inner-banner .secend .two{
+	border: 5px solid #fff;
+	text-decoration: none;
+	color: white;
+	padding: 20px 35px;
+	font-size: 18px;
+	font-weight: 700;
+}
+.banner-section .inner-banner .secend .one:hover{
+    text-decoration: none;
+    color: white;
+    padding: 25px 35px;
+    background-color: #333;
+    transition: 1s;
+}
+.banner-section .inner-banner .secend .two:hover{
+    border: 5px solid #fff;
+    text-decoration: none;
+    color: black;
+    padding: 20px 35px;
+    background-color: #ffffff;
+    transition: 1s;
+}
+/*******************************
+******Banner section end *******
+*******************************/
+
+/*******************************
+*****demo-section start*********
+*******************************/
+.demo-section{
+	width: 100%;
+	padding: 80px 0px;
+	background-color: #333;
+}
+.demo-section .inner-text{
+	width: 100%;
+	padding: 40px 0px 0px;
+}
+.demo-section h3{
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.demo-section p{
+    width: 71%;
+    line-height: 38px;
+    margin: 20px auto 0px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 2.2px;
+}
+.demo-section .inner-row-img{
+	width: 100%;
+	padding: 80px 0px 0px;
+}
+.demo-section .inner-row-img img{
+	width: 100%;
+}
+.demo-section .inner-row-img .one{
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	letter-spacing: 1.2px;
+}
+.demo-section .inner-row-img .two{
+	line-height: 33px;
+	text-align: center;
+	font-size: 26px;
+	letter-spacing: 1.2px;
+	margin: 8px auto 0px;
+}
+.demo-section .inner-row-img .two a{
+	color: white;
+}
+.demo-section .inner-row-img .two a:hover{
+	color: #fbbe3f;
+	transition: 1s ease-in;
+}
+/*******************************
+*****demo-section end*********
+*******************************/
+
+
+/*******************************
+*****awasome-section start******
+*******************************/
+.awasome-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/bhok.jpg") center top no-repeat;
+	background-size: cover;
+}
+.awasome-section .inner-awasome{
+	width: 100%;
+}
+.awasome-section .inner-awasome h3{
+    margin: 0px 0px 100px;
+    padding-top: 50px;
+    font-weight: 600;
+    line-height: 58px;
+    width: 100%;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    letter-spacing: 1.2px;
+}
+.awasome-section .secend{
+	padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+}
+.awasome-section .one{
+	text-decoration: none;
+    color: white;
+    padding: 20px 45px;
+    background-color: #FBBE3F;
+}
+.awasome-section .one:hover{
+	text-decoration: none;
+    color: white;
+    padding: 20px 45px;
+    background-color: #000;
+    transition: 1.2s;
+}
+/*******************************
+*****awasome-section end********
+*******************************/
+
+
+/*******************************
+*****asm-section start********
+*******************************/
+.asm-section{
+	width: 100%;
+	background-color: #000;
+}
+.asm-section img{
+	width: 100%;
+}
+/*******************************
+*****asm-section end************
+*******************************/
+
+/***************************************
+*****protfolio-section start************
+***************************************/
+.protfolio-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.protfolio-section .inner-text{
+	width: 100%;
+}
+.protfolio-section .inner-text h3{
+	margin: 25px;
+	font-weight: 700;
+	letter-spacing: 2px;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+.protfolio-section .inner-text p{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    width: 55%;
+    margin: 0px auto 60px;
+    line-height: 31px;
+}
+.protfolio-section h4{
+	margin: 20px 0px 0px;
+	font-size: 18px;
+  	text-align: center;
+    text-align: center;
+    color: #999999;
+}
+/***************************************
+*****protfolio-section end************
+***************************************/
+
+
+/***************************************
+*****custom-section start************
+***************************************/
+.custom{
+	width: 100%;
+	padding: 80px 0px;
+	margin: 0px 0px 80px;
+}
+.custom .inner-custom{
+	width: 100%;
+    float: left;
+    background-image: url(../images/custom.png);
+    background-size: cover;
+    height: 920px;
+    margin-bottom: 2px;
+}
+/***************************************
+*****custom-section end	************
+***************************************/
+
+/***************************************
+*****************bg-color start********
+***************************************/
+
+.bg-color{
+	width: 100%;
+	padding: 40px 0px;
+	background-color: #000;
+	margin-top: 50px;
+}
+.main-bg{
+	width: 100%;
+	padding: 40px 0px;
+	background-color: #333;
+}
+.bg-color .main-bg .fist{
+	text-align: center;
+}
+.bg-color .main-bg .socend{
+	text-align: center;
+    width: 100%;
+    display: block;
+}
+.bg-color .main-bg .socend a{
+	text-decoration: none;
+    color: white;
+    margin: 40px 0px 0px;
+    padding: 25px 70px;
+    background-color: #FBBE3F;
+    font-size: 22px;
+    display: inline-block;
+}
+.bg-color .main-bg .socend a:hover{
+	text-decoration: none;
+    color: white;
+    /*padding: 20px 45px;*/
+    background-color: #000;
+    transition: 1.2s;
+}
+.bg-color .main-bg .hudi h1{
+	width: 48%;
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 46px;
+	color: #fff;
+	margin: 15px auto 60px;
+}
+/***************************************
+*****************bg-color end********
+***************************************/
+
+/*******************************************************
+*****************protfolio Section code start***********
+*******************************************************/
+.protfolio-sec{
+	width: 100%;
+}
+#wrapper{
+	width: 100%;
+	padding: 20px 0px 80px;
+}
+#wrapper .portfolio .item .image{
+	width: 400px;
+	margin: 40px 0px;
+}
+#wrapper .btn-info{
+    padding: 18px 50px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+#wrapper .filter .btn-info{
+	color: #fff;
+	border-color: #fbbe3f;
+	background: #fbbe3f;
+	transition: 1s;
+}
+#wrapper .filter .btn-info:hover{
+    background: #333;
+    border-color: #333;
+    color: #fbbe3f;
+} 
+.protfolio-sec #wrapper h3{
+	text-align: center;
+	font-size: 42px;
+	color: #fff;
+	margin: 40px auto;
+}
+/*******************************************************
+*****************protfolio Section code End*************
+*******************************************************/
+
+
+/***************************************
+****************pre-build start********
+***************************************/
+.pre-build{
+	width: 100%;
+	background-color: #333;
+	padding: 80px 0px;
+}
+.pre-build .inner-text h4{
+   	width: 65%;
+    font-size: 36px;
+    margin: 40px auto;
+    color: #fff;
+} 
+.pre-build .inner-text p{
+	font-size: 20px;
+    width: 42%;
+    margin: 0px auto 60px;
+    text-align: center;
+    color: #fff;
+}
+.pre-build .btn-danger{
+	font-weight: 600;
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    background-color: #fbbe3f;
+    border-color: #fbbe3f;
+    margin: 80px auto 40px;
+    padding: 12px 30px;
+    width: 210px;
+    transition: 1s;
+    letter-spacing: 1px;
+}
+.pre-build .btn-danger:hover{
+	color: #fbbe3f;
+    font-size: 18px;
+    background-color: #000;
+    border-color: #000;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+/***************************************
+****************pre-build end********
+***************************************/
+
+/***************************************
+****************advance-opt start********
+***************************************/
+.advance-opt{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/customization.png") center top no-repeat;
+	background-size: cover;
+	height: 933px;
+}
+/***************************************
+****************advance-opt end********
+***************************************/
+
+
+/***************************************
+****************last-part start ********
+***************************************/
+.last-part{
+	width: 100%;
+	padding: 80px 0px;
+	color: #fff;
+	background-color: #333;
+}
+.last-part .inner-last h5{
+	font-size: 36px;
+    text-align: center;
+    margin: 0px auto 40px;
+}
+.last-part .inner-last p{
+	font-size: 20px;
+    text-align: center;
+    margin: 0px auto 60px;
+    width: 50%;
+}
+
+
+/***************************************
+****************last-part end ********
+***************************************/
+
+
+/***************************************
+**************last-part-two start******
+***************************************/
+.last-two{
+	padding: 80px 0px;
+}
+.last-two .inner-last-two h5{
+	color: #fff;
+	font-size: 36px;
+    text-align: center;
+    margin: 0px auto 40px;
+}
+.last-two .inner-last-two p{
+	font-size: 18px;
+    margin: 0px auto 60px;
+    text-align: center;
+    color: #fff;
+    width: 45%;
+}
+.last-two img{
+	width: 100%;
+}
+.last-two h5{
+	color: #fff;
+}
+.last-two p{
+	color: #fff;
+}
+/***************************************
+****************last-part-two end ******
+***************************************/
+
+/***************************************
+************footer-section start here***
+***************************************/
+.footer-section{
+	width: 100%;
+	padding: 80px 0px 0px;
+	background: #333;
+}
+.footer-section .inner-footer h6{
+	width: 100%;
+	font-size: 48px;
+	color: #fff;
+	text-align: center;
+	margin: 40px auto 20px;
+}
+.footer-section .inner-footer p{
+	font-size: 18px;
+	width: 65%;
+	margin: 20px auto 0px;
+	text-align: center;
+	color: #fff;
+}
+.footer-section .tex{
+    width: 70%;
+    margin: 40px auto;
+    display: block;
+    padding: 30px;
+}
+.footer-section label{
+	font-size: 18px;
+	color: #fff;
+}
+.footer-section .btnc .btn{
+	font-size: 18px;
+	margin-right: 15px;
+	padding: 12px 25px;
+	color: #fff;
+	background-color: #fbbe3f;
+	border-color: #fbbe3f;
+	transition: 1s;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.footer-section .btnc .btn:hover{
+	font-size: 18px;
+	margin-right: 15px;
+	color: #fbbe3f;
+	background-color: #000;
+	border-color: #000;
+	font-weight: 600;
+}
+.footer-section .extra-part{
+	width: 100%;
+	padding: 20px 0px;
+	background-color: #000;
+	color: #fff;
+	font-size: 16px;
+}
+.footer-section .extra-part ul{
+	display: block;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+.footer-section .extra-part ul li{
+	display: inline-block;
+}
+.footer-section .extra-part ul li a{
+	margin-right: 15px;
+}
+.footer-section .extra-part .fa{
+	color: #fff;
+	font-size: 18px;
+	text-align: left !important;
+}
+.footer-section .extra-part .fa:hover{
+	color: #fbbe3f;
+}
+.last-part .inner-slider .item h4{
+	text-align: center;
+	width: 70%;
+	margin: 50px auto;
+	line-height: 42px;
+}
+.form-control{
+	padding: 12px 0px 15px 15px;
+	color: #fff!important;
+    background-image: url(../images//bhok.jpg);
+    border: none;
+}
+.form-control:hover,
+.form-control:active,
+.form-control:focus{
+	box-shadow: 2px 0px 11px 1px black;
+}
+.form-control::placeholder{
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+textarea{
+    resize: none;
+}
+.form-control:focus{
+    color: #fff;
+    background-color: #fff;
+    border-color: none !important;
+    outline: none;
+    box-shadow: none;
+}

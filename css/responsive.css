@@ -1,0 +1,193 @@
+/* **************************************************************
+smartphones, portrait iPhone, portrait 480x320 phones (Android) *
+*****************************************************************/ 
+
+@media (min-width:320px) and (max-width: 480px) {
+	/*code start*/
+	.banner-section{
+		padding: 20px 0px !important;
+	}
+	.banner-section .inner-banner{
+		padding:0px !important;
+	}	
+	.banner-section .inner-banner h1{
+	font-size: 20px !important;
+	text-align: center !important;
+    font-weight: 600 !important;
+    width: 100% !important;
+    color: #fff !important;
+    line-height: 33px !important;
+    letter-spacing: 2px !important;
+	}
+	.banner-section .inner-banner .fist{
+	text-align: justify !important;
+    padding: 0px 0px !important;
+    color: #b8b8b8 !important;
+    width: 100% !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    margin: 40px auto !important;
+    line-height: 24px !important;
+    letter-spacing: 2px !important;
+	}
+	.banner-section .inner-banner .secend .two{
+    display: inline-block !important;
+    border: 5px solid #fff !important;
+    text-decoration: none !important;
+    color: white !important;
+    padding: 12px 25px !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    border-radius: 30px;
+	}
+	.banner-section .inner-banner .secend .one{
+    width: 48% !important;
+    display: inline-block !important;
+    margin: 20px !important;
+    text-decoration: none !important;
+    color: white !important;
+    padding: 13px 25px !important;
+    background-color: #FBBE3F !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    border-radius: 30px;
+	}
+	.banner-section .inner-banner .secend{
+    width: 100% !important;
+    text-align: center !important;
+    padding: 35px !important;
+	}
+	.banner-section .inner-banner .secend .one:hover{
+	text-decoration: none;
+    color: white;
+    background-color: #333;
+    transition: 1s;
+	}
+	.banner-section .inner-banner .secend .two:hover {
+    border: 3px solid #fff;
+    text-decoration: none;
+    color: black;
+    padding: 20px 35px;
+    background-color: #ffffff;
+    transition: 1s;
+	}
+	/*code end*/
+}
+/* **************************************************************
+smartphones, portrait iPhone, portrait 480x320 phones (Android) *
+*****************************************************************/ 
+
+
+/* *********************************************
+smartphones, Android phones, landscape iPhone *
+***********************************************/ 
+@media (min-width:481px) and (max-width: 520px){
+
+	/*code start*/
+	.banner-section{
+		padding: 20px 0px !important;
+	}
+	.banner-section .inner-banner{
+		padding:0px !important;
+	}	
+	.banner-section .inner-banner h1{
+	font-size: 20px !important;
+	text-align: center !important;
+    font-weight: 600 !important;
+    width: 100% !important;
+    color: #fff !important;
+    line-height: 33px !important;
+    letter-spacing: 2px !important;
+	}
+	.banner-section .inner-banner .fist{
+	text-align: justify !important;
+    padding: 0px 0px !important;
+    color: #b8b8b8 !important;
+    width: 100% !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    margin: 40px auto !important;
+    line-height: 24px !important;
+    letter-spacing: 2px !important;
+	}
+	.banner-section .inner-banner .secend .two{
+    display: inline-block !important;
+    border: 3px solid #fff !important;
+    text-decoration: none !important;
+    color: white !important;
+    padding: 12px 25px !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    border-radius: 30px;
+	}
+	.banner-section .inner-banner .secend .one{
+    width: 43% !important;
+    display: inline-block !important;
+    margin: 20px !important;
+    text-decoration: none !important;
+    color: white !important;
+    padding: 14px 25px !important;
+    background-color: #FBBE3F !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    border-radius: 30px;
+ }
+	.banner-section .inner-banner .secend{
+    width: 100% !important;
+    text-align: center !important;
+    padding: 35px 35px 0px 35px  !important;
+	}
+	.banner-section .inner-banner .secend .one:hover{
+	text-decoration: none !important;
+    color: white !important;
+    background-color: #333 !important;
+    transition: 1s !important;
+	}
+	.banner-section .inner-banner .secend .two:hover {
+    border: 3px solid #fff !important;
+    text-decoration: none !important;
+    color: black !important;
+    background-color: #ffffff !important;
+    transition: 1s !important;
+	}	
+	/*code end*/
+}
+/* *********************************************
+smartphones, Android phones, landscape iPhone *
+***********************************************/ 
+
+/***********************************************************************************************
+ * portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) 
+ ********************************************************************************************/
+@media (min-width:521px) and (max-width: 600px){ 
+	/*code start*/
+				
+	/*code end*/
+}
+/***********************************************************************************************
+ * portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) 
+ ********************************************************************************************/
+
+/************************************************************
+*******tablet, landscape iPad, lo-res laptops ands desktops******
+ ********************************************************** */ 
+@media (min-width:601px) and (max-width: 800px){ 
+	/*code start*/
+				
+	/*code end*/
+ }
+ /************************************************************
+*******tablet, landscape iPad, lo-res laptops ands desktops******
+ ********************************************************** */ 
+
+ /**********************************************************
+  ******big landscape tablets, laptops, and desktops*******
+  ****************************************************** */
+@media (min-width:801px) and (max-width: 1024){ 
+	/*code start*/
+				
+	/*code end*/
+ }
+ /**********************************************************
+  ******big landscape tablets, laptops, and desktops*******
+  ****************************************************** */
